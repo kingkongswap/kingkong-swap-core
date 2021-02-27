@@ -22,7 +22,9 @@ module.exports = {
 		hardhat: {
 
 		},
-		
+		okex_testnet: {
+			
+		}
 	},
 	solidity: "0.5.16",
 };
