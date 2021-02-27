@@ -23,7 +23,8 @@ module.exports = {
 
 		},
 		okex_testnet: {
-			
+			url: 'http://39.103.147.63:26659',
+			// url: 'http://okexchaintest.okexcn.com:26659',
 		}
 	},
 	solidity: "0.5.16",
