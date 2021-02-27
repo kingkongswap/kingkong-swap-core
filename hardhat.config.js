@@ -52,7 +52,6 @@ module.exports = {
 				process.env.ETH_PK_2
 			]
 		}
-		
 	},
 	solidity: {
 		version: "0.5.16",
