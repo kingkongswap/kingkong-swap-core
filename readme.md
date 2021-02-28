@@ -3,6 +3,7 @@
 ## contracts modify:
 1. UniswapV2Factory.sol line 7, add INIT_CODE_PAIR_HASH
 2. UniswapV2Pair.sol line 99, use line 100 instead, so we can receive the 0.3% fee
+3. UniswapV2ERC20.sol line 9 line 10, lptoken name changed 
 
 ## deploy
 1. npm i
