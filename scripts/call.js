@@ -8,7 +8,7 @@ async function main() {
     accounts = await hre.ethers.getSigners()
     
     let factoryAbi = getAbi('./artifacts/contracts/UniswapV2Factory.sol/UniswapV2Factory.json')
-    let factoryAddress = '0x4502F7BcC6D4Fd03A50c83EDF18e3B20b9570682'
+    let factoryAddress = '0x69268B5859E0E1081254ECe7399449685235047d'
     const factory = new ethers.Contract(factoryAddress, factoryAbi, accounts[0])
 
     // await factory.setFeeTo(accounts[1].address)
