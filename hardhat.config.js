@@ -23,7 +23,7 @@ module.exports = {
 
 		},
 		okex_testnet: {
-			url: 'https://exchaintest.okexcn.com',
+			url: 'https://exchaintestrpc.okex.org',
 			chainId: 65,
 			from: process.env.ETH_ADDRESS_0,
 			accounts: [
